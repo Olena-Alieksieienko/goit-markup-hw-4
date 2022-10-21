@@ -233,6 +233,12 @@ img {
   flex-basis: calc((100% - 30px) / 4);
 }
 
+.benefits-container-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
