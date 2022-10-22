@@ -171,7 +171,7 @@ img {
 /* ------------ Герой ------------  */
 
 .hero {
-  background: var(--hero-bg-color);
+  background-color: var(--hero-bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
