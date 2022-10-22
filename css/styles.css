@@ -422,6 +422,12 @@ img {
 
 .clients-link:hover,
 .clients-link:focus {
+  border-color: var(--accent-color);
+}
+
+.clients-link:hover .cliens-icon,
+.clients-link:focus .cliens-icon {
+  fill: var(--accent-color);
 }
 
 /* ----------Футер---------- */
