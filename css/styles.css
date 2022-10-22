@@ -175,6 +175,15 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -248,7 +257,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px 100px;
+  /* padding: 25px 100px; */
   background-color: var(--secondary-bg-color);
 }
 
