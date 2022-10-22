@@ -344,12 +344,34 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 16px;
 }
 
 .employees-specialization {
   padding: 30px 0;
   font-size: 0;
 }
+
+.employees-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.employees-soc-item {
+  width: 44px;
+  height: 44px;
+}
+
+.employees-soc-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: teal;
+  border-radius: 50%;
+}
+
+/* ----------  Постійні клієнти  ---------- */
 
 /* ----------Футер---------- */
 
