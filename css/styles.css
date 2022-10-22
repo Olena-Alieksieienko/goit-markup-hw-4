@@ -164,6 +164,7 @@ img {
 .contact-icon {
   margin-right: 10px;
   fill: currentColor;
+  vertical-align: middle;
 }
 
 /* ------------ Герой ------------  */
