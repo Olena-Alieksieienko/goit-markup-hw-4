@@ -22,6 +22,7 @@ html {
   --border-header-color: #ececec;
   --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
   --portfolio-item-border-color: #eeeeee;
+  --fill-icon-color: #afb1b8;
 }
 
 p,
@@ -374,7 +375,7 @@ img {
 }
 
 .employees-soc-icon {
-  fill: #afb1b8;
+  fill: var(--fill-icon-color);
 }
 
 .employees-soc-link:hover,
@@ -389,27 +390,35 @@ img {
 
 /* ----------  Постійні клієнти  ---------- */
 
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
+
 .clients-list {
   display: flex;
   gap: 30px;
+  list-style-type: none;
 }
 
 .clients-item {
-  width: calc(100% - 150px) / 6;
+  width: calc((100% - 150px) / 6);
   height: 92px;
 }
 
 .clients-link {
   width: 100%;
   height: 100%;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--fill-icon-color);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -417,7 +426,7 @@ img {
 }
 
 .cliens-icon {
-  fill: #afb1b8;
+  fill: var(--fill-icon-color);
 }
 
 .clients-link:hover,
@@ -497,6 +506,59 @@ img {
 .footer-logo:focus {
   color: var(--accent-color);
 }
+
+.footer-wrap {
+  display: flex;
+  gap: 70px;
+  align-items: baseline;
+}
+
+.right-column-footer {
+
+}
+
+.invitation-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-accent-color);
+  margin-bottom: 21px;
+}
+
+.site-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.site-soc-item {
+  width: 44px;
+  height: 44px;
+}
+
+.site-soc-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: var(--secondary-accent-color);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-soc-icon {
+  fill: var(--fill-icon-color);
+}
+
+.site-soc-link:hover,
+.site-soc-link:focus {
+  background: var(--accent-color);
+}
+
+.site-soc-link:hover .site-soc-icon,
+.site-soc-link:focus .site-soc-icon {
+  fill: var(--secondary-accent-color);
 
 /* ----------Портфоліо----------*/
 
