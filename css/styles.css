@@ -559,12 +559,11 @@ img {
 .site-soc-link:hover .site-soc-icon,
 .site-soc-link:focus .site-soc-icon {
   fill: var(--secondary-accent-color);
+}
+
 
 /* ----------Портфоліо----------*/
 
-.portfolio-section {
-  
-}
 
 .portfolio-section {
   padding: 94px 0;
